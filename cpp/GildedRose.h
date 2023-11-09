@@ -19,6 +19,9 @@ public:
     explicit GildedRose(::std::vector<Item> && items);
     explicit GildedRose(::std::vector<Item> const& items);
 
+	void increaseQuality(int numOfItem);
+    void decreaseQuality(int numOfItem);
     void updateQuality();
+    
 };
 
